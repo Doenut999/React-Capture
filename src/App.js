@@ -1,9 +1,10 @@
 import AboutPage from "./Components/pages/AboutPage";
+import GlobalStyle from "./Components/GlobalStyle";
 
 function App() {
   return (
     <div className="App">
-        <h1>Film</h1>
+        <GlobalStyle />
         <AboutPage />
     </div>
   );
