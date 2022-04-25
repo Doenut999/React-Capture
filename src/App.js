@@ -1,7 +1,10 @@
+import AboutPage from "./Components/pages/AboutPage";
+
 function App() {
   return (
     <div className="App">
-      sup baby
+        <h1>Film</h1>
+        <AboutPage />
     </div>
   );
 }
